@@ -1426,6 +1426,8 @@ public class JsonFormat {
               break;
             case '\'':
               builder.append('\'');
+            case '/':
+              builder.append('/');
               break;
             case 'u':
               // read the next 4 chars
