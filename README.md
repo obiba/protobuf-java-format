@@ -1,4 +1,6 @@
-Fork from http://code.google.com/p/protobuf-java-format/
+Provide serialization and de-serialization of different formats based on Google’s protobuf Message. Enables overriding the default (byte array) output to text based formats such as XML, JSON and HTML.
+
+Fork from [http://code.google.com/p/protobuf-java-format]
 
 
 ## Description
