@@ -8,15 +8,16 @@
 	<groupId>com.googlecode.protobuf-java-format</groupId>
 	<artifactId>protobuf-java-format</artifactId>
 	<name>protobuf-java-format</name>
-	<version>1.2</version>
+	<version>1.2-SNAPSHOT</version>
 	<description>Provide serialization and de-serialization of different formats based on Google’s protobuf Message. Enables overriding the default (byte array) output to text based formats such as XML, JSON and HTML.</description>
 	<url>http://code.google.com/p/protobuf-java-format/</url>
 	<packaging>jar</packaging>
-	<scm>
-		<connection>scm:svn:http://protobuf-java-format.googlecode.com/svn/tags/protobuf-java-format-1.2</connection>
-		<developerConnection>scm:svn:http://protobuf-java-format.googlecode.com/svn/tags/protobuf-java-format-1.2</developerConnection>
-		<url>http://protobuf-java-format.googlecode.com/svn/tags/protobuf-java-format-1.2</url>
-	</scm>
+  <scm>
+    <connection>scm:git:git://github.com/obiba/protobuf-java-format.git</connection>
+    <developerConnection>scm:git:https://github.com/obiba/protobuf-java-format.git</developerConnection>
+    <url>https://github.com/obiba/protobuf-java-format</url>
+    <tag>1.2.x</tag>
+  </scm>
 	<licenses>
 		<license>
 			<name>New BSD License</name>
@@ -174,7 +175,7 @@
 				</property>
 			</activation>
 			<properties>
-				<protoc>protoc</protoc>
+        <protoc>/usr/bin/protoc</protoc>
 			</properties>
 		</profile>
 		<profile>
